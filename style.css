@@ -2,7 +2,16 @@
 body {
     background-color: #1c1c1c;
     color: #f0f0f0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
+    /* font-family: 'Space Mono', sans-serif; */
+    /* font-family: 'Space Grotesk', sans-serif; */
+    /* font-family: 'Syne', sans-serif; */
+    /* font-family: 'Cormorant', sans-serif; */
+    /* font-family: 'Eczar', serif; */
+  
+    
+    
   }
   
   a {
@@ -89,7 +98,7 @@ section {
   /* Change color on hover on buttons and links */
   a:hover, button:hover {
     background-color: #333;
-    color: #fff;
+    color: #ff9147;
   }
   
 
@@ -102,7 +111,7 @@ section {
   }
 
   nav ul li a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-style: italic;
     font-size: x-large;
@@ -172,5 +181,15 @@ section {
   
   .back-to-top.show {
     display: block;
+  }
+
+  .container {
+    border-top: 6px solid #333; /* add a top border to the container */
+    padding-top: 50px; /* add some padding to separate the border from the content */
+  }
+  
+  section:not(:last-child) {
+    border-bottom: 2px solid #333; /* add a bottom border to all sections except the last one */
+    padding-bottom: 50px; /* add some padding to separate the border from the content */
   }
   
